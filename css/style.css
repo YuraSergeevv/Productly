@@ -18,6 +18,9 @@ button {
 
 .title {
   color: #2F281E;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
 }
 
 .container {
@@ -83,6 +86,10 @@ button {
   color: #ffffff;
 }
 
+.top {
+  margin-bottom: 110px;
+}
+
 .top__inner {
   padding: 133px 0 180px;
   background-image: url(../images/top-background.svg);
@@ -92,7 +99,6 @@ button {
 
 .top__title {
   font-size: 44px;
-  font-weight: bold;
   line-height: 54px;
   max-width: 518px;
   margin-bottom: 30px;
@@ -131,4 +137,113 @@ button {
   width: 17px;
   height: 19px;
   background-image: url(../images/play-icon.svg);
+}
+
+.tools {
+  background-image: url(../images/tools__background.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-bottom: 90px;
+  margin-bottom: 120px;
+}
+
+.tools__title {
+  margin: 0 auto;
+  max-width: 540px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.tools__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 0 15px;
+}
+
+.tools__item {
+  max-width: 240px;
+}
+
+.tools__item-img {
+  margin-bottom: 30px;
+}
+
+.tools__item-title {
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 13px;
+}
+
+.tools__link {
+  display: block;
+  background-color: #ff9900;
+  color: #ffffff;
+  line-height: 24px;
+  border-radius: 4px;
+  padding: 15px 32px 14px;
+  text-transform: uppercase;
+  width: 172px;
+  margin: 0 auto;
+}
+
+.direction__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.direction__item-content {
+  padding-top: 26px;
+  max-width: 486px;
+}
+
+.direction__item-pretitle {
+  margin-bottom: 3px;
+}
+
+.direction__item-title {
+  margin-bottom: 22px;
+}
+
+.direction__item-subtitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.direction__item-text {
+  margin-bottom: 25px;
+}
+
+.direction__item-img {
+  height: 100%;
+}
+
+.direction_item-list {
+  list-style: none;
+}
+
+.direction__item-list-element {
+  margin-bottom: 30px;
+  padding-left: 65px;
+  position: relative;
+}
+
+.direction__item-list-element::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/direction__item-icon.svg);
 }
