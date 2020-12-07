@@ -331,13 +331,33 @@ button {
 
 .team__item-text {
   position: absolute;
-  background-image: url(../images/text_background.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  text-align: center;
-  width: 330px;
-  height: 70px;
+  background-color: #FFFFFF;
   padding: 15px 20px;
-  top: -40px;
-  left: -270px;
+  top: -45px;
+  right: 65px;
+  -webkit-box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
+          box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);
+  border-radius: 26px;
+  white-space: nowrap;
+}
+
+.team__item-text::after, .team__item-text::before {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.team__item-text::after {
+  width: 17px;
+  height: 17px;
+  bottom: -7px;
+  right: 30px;
+}
+
+.team__item-text::before {
+  width: 9px;
+  height: 9px;
+  bottom: -20px;
+  right: 15px;
 }
