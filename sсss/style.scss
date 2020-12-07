@@ -355,3 +355,77 @@ button{
         right: 15px;
     }
 }
+
+//Strategies
+.strategies{
+margin-bottom: 120px;
+}
+
+.strategies__title{
+    margin-bottom: 10px;
+}
+
+.strategies__text{
+    margin-bottom: 55px;
+}
+.slider{
+margin: 0 -20px;    
+}
+
+.slider__item{
+    padding: 0 20px;
+}
+
+.slider__item-img{
+    width: 348px;
+    height: 185px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 25px;
+}
+.slider__item-info{
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.slider__item-author{
+    text-decoration: none;
+    font-weight: 700;
+    color: #544837;
+}
+
+.slider__item-title{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 34px;
+    transition-duration: .3s;
+    margin-bottom: 84px;
+    &:hover{
+        color: #ff9900;
+        ;
+
+    }
+}
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    button{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: none;
+         font-size: 0;
+        background-color: #EFEFEF;
+        padding: 0;
+        margin: 0 5px;
+    }
+}
+
+.slick-dots .slick-active button{
+    background-color: #ff9900;
+}
+
